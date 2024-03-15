@@ -4,6 +4,7 @@ function validaCampo(Campos) {
     const campoComoArray = Campos.split(' ');
     return campoComoArray.length > campoA;
 }
+
 form.addEventListener("submit", function(event) {
     event.preventDefault(); // Evita o envio padrão do formulário
 
